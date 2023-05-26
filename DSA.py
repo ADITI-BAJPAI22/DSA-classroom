@@ -13,26 +13,26 @@ n = int(input("Enter the value of n: "))
 print("Numbers are:")
 print_numbers(n)
 
-
 '''
+
 
 '''
 Given a number n, print n-1.
 
 
 def print_numbers(n):
-  if n > 1:
+  if n > 0:
+    print(n) 
     print_numbers(n-1)
-    print(n-1)
+
 
 n = int(input("Enter a number: "))
-if n > 1:
-  print_numbers(n)
-else:
-  print("The number should be greater than 1.")
+print_numbers(n)
+
 
 
 '''
+
 
 
 '''
